@@ -1,0 +1,2 @@
+C:\Users\pedro.pinese\Desktop\Pedro\C#\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\pedro.pinese\Desktop\Pedro\C#\Calculadora_FOriani\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config

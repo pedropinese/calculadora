@@ -125,6 +125,10 @@ namespace Calculadora
                                 {
                                     result = result * valor1;
                                 }
+                                if(valor2 == 0)
+                                {
+                                    result = 1;
+                                }
                                 mostra_resultado(valor1, operacao, valor2, result);
                             }
                             catch (FormatException ex)
@@ -173,7 +177,7 @@ namespace Calculadora
                     default:
                         {
                             Console.WriteLine("\t\tCALCULADORA");
-                            Console.WriteLine("\n\tDigite uma opcao valida!");
+                            mostra_erro("Opcao invalida!");
                             break;
                         }
                 }
@@ -198,14 +202,29 @@ namespace Calculadora
 
         public static void mostra_resultado(decimal v1, string op, decimal v2, decimal result)
         {
-            Console.WriteLine("\n\t\tResultado => {0}{1}{2}={3}", v1, op, v2, result);
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Write("\n\t\tResultado => {0} {1} {2} = ", v1, op, v2);
+            if(result >= 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine(result);
+                Console.ResetColor();
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(result);
+                Console.ResetColor();
+            }
         }
 
         public static void mostra_erro(string msg_erro)
         {
             Console.Clear();
             Console.WriteLine("\t\tCALCULADORA");
-            Console.WriteLine("\n\tErro!\n\n\tMotivo: "+msg_erro);
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("\n\tErro!\n\n\tMotivo: " + msg_erro);
+            Console.ResetColor();
         }
     }
 }

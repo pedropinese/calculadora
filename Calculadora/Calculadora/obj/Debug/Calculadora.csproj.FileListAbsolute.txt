@@ -1,2 +1,7 @@
 C:\Users\pedro.pinese\Desktop\Pedro\C#\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
 C:\Users\pedro.pinese\Desktop\Pedro\C#\Calculadora_FOriani\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\pedro.pinese\Desktop\Pedro\C#\Calculadora_FOriani\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+C:\Users\pedro.pinese\Desktop\Pedro\C#\Calculadora_FOriani\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+C:\Users\pedro.pinese\Desktop\Pedro\C#\Calculadora_FOriani\Calculadora\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+C:\Users\pedro.pinese\Desktop\Pedro\C#\Calculadora_FOriani\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\pedro.pinese\Desktop\Pedro\C#\Calculadora_FOriani\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
